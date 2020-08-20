@@ -1,0 +1,30 @@
+.title-padding {
+    padding-top: 25px;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list li {
+    color: gray;
+    padding: 10px 5px;
+}
+  
+.list li:hover,
+.list li.checked {
+    color: yellow;
+}
+  
+.list {
+    list-style: none;
+}
+
+.selected-info {
+    background-color: lightblue;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
