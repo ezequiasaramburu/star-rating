@@ -21,6 +21,5 @@ export class AppComponent {
       this.selectedValue = this.selectedValue - 1;
     else
       this.selectedValue = star;
-    console.log('Value of star', star);
   }
 }
